@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb.bak
+
+# Model & data artifacts
+*.h5
+*.keras
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.ckpt
+datasets/
+models/
+outputs/
+runs/
+
+# Secrets / config
+.env
+*.env
+secrets.json
+kaggle.json
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
